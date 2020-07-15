@@ -1,12 +1,13 @@
 /** @format */
 
 import React from "react";
-import "App.css";
+
+import "assets/css/style.css";
 import HomePage from "scenes/Homepage";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <HomePage></HomePage>
     </div>
   );
